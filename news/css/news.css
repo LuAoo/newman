@@ -1,0 +1,91 @@
+/* 新闻列表样式 */
+
+.news_list {
+    margin: 40px 25px 40px 20px;
+    width: 934px;
+}
+
+/* li标签*/
+
+.news_list li {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.news_list .news_item_data {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: url(../image/newimage_06.png);
+    position: relative;
+}
+
+.news_list .news_item_data .day {
+    font-size: 50px;
+    color: #666666;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.news_list .news_item_data .day::after {
+    content: '';
+    position: absolute;
+    width: 69px;
+    height: 1px;
+    top: 68px;
+    left: 17px;
+    background-color: #666666;
+}
+
+.news_list .news_item_data .year_month {
+    font-size: 13px;
+    color: #666666;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.news_list .news_item_content {
+    float: right;
+    width: 817px;
+    height: 100px;
+}
+
+.news_list .news_item_content .new_h2 {
+    display: inline-block;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.news_list .news_item_content .news_p {
+    display: inline-block;
+    margin-top: 21px;
+    font-size: 14px;
+    color: #666666;
+    text-indent: 2em;
+    line-height: 24px;
+}
+
+/* li标签的hover效果*/
+.news_list li:hover .news_item_data span {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.news_list li:hover .news_item_data {
+    background: url(../image/newimage_03.png);
+}
+
+.news_list li:hover .day::after {
+    background-color: #ffffff;
+}
+
+.news_list li:hover .news_item_content .new_h2 {
+    color: #01a1ff;
+}

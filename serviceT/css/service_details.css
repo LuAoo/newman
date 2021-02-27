@@ -1,0 +1,29 @@
+.service_arcticle_content {
+    width: 920px;
+    margin: 40px 25px 0px 25px;
+}
+.service_arcticle_content h2{
+    font-size: 24px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 53px;
+    color: #333333;
+}
+.service_arcticle_content h3{
+    font-size: 14px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 23px;
+}
+.service_arcticle_content ol{
+    margin-left: 22px;
+
+}
+.service_arcticle_content ol li{
+    font-size: 14px;
+    font-family:宋体;
+    line-height: 24px;
+    color: #666666;
+}

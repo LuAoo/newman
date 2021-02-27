@@ -1,0 +1,100 @@
+.concat_aside_content {
+    height: 132px;
+}
+
+.concat_aside_content p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #01a1ff;
+    text-align: center;
+    text-transform: none;
+    line-height: 25px;
+    margin-bottom: 6px;
+}
+
+.concat_aside_content span {
+    font-size: 16px;
+    color: #01a1ff;
+    width: 150px;
+    text-align: center;
+    border-top: 1px solid #01a1ff;
+    padding-top: 6px;
+    display: block;
+    margin: 0px auto;
+}
+
+.concat_content {
+    width: 920px;
+    margin: 40px 25px 0 25px;
+    height: 800px;
+}
+
+.concat_input_content {
+    display: flex;
+}
+
+.concat_content_left label {
+    font-size: 14px;
+    color: #666666;
+}
+
+.concat_input_content h2 {
+    font-size: 20px;
+    color: #333333;
+    margin-top: 31px;
+    margin-bottom: 20px;
+}
+
+.concat_content_left, .concat_content_right {
+    flex-grow: 1;
+}
+
+.concat_content_left input, .concat_content_left textarea {
+    margin-bottom: 11px;
+}
+
+.concat_content_left_area {
+    overflow: hidden;
+}
+
+.concat_content_left_area label {
+    float: left;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.concat_content_left_area textarea {
+    float: left;
+}
+
+.button_1, .button_2 {
+    width: 96px;
+    height: 30px;
+    outline: none;
+}
+
+.button_1 {
+    margin-left: 40px;
+}
+
+.button_2 {
+    margin-left: 20px;
+}
+
+.button_2:hover, .button_1:hover {
+    background-color: #01a1ff;
+}
+
+.concat_content_right p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+#map {
+    width: 930px;
+    height: 450px;
+    border: #ccc solid 1px;
+    font-size: 12px"
+}

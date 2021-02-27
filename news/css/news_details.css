@@ -1,0 +1,126 @@
+.latest_news {
+    width: 100%;
+}
+
+.latest_news h2 {
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.source_share {
+    font-size: 12px;
+    color: #999999;
+    overflow: hidden;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #999999;
+}
+
+.source_share a {
+    font-size: 12px;
+    color: #999999;
+}
+
+.source_share .source {
+    float: left;
+}
+
+.source_share .share {
+    float: right;
+}
+
+/* 精灵图设置 */
+
+.source_share .share a i {
+    padding-right: 3px;
+    display: inline-block;
+    background: url(../image/sprite.png);
+}
+
+.source_share .share a:nth-child(1) i {
+    width: 13px;
+    height: 12px;
+    background-position: 0 -19px;
+}
+
+.source_share .share a:nth-child(2) i {
+    width: 15px;
+    height: 14px;
+}
+
+.source_share .share a:nth-child(3) i {
+    width: 15px;
+    height: 15px;
+    background-position: 0 -59px;
+}
+
+.source_share .share a:nth-child(4) i {
+    width: 15px;
+    height: 15px;
+    background-position: 0 -37px;
+}
+/* 主体内容 */
+.new_article{
+    margin: 30px 0px 15px 20px;
+    width: 950px;
+    padding-bottom: 60px;
+    border-bottom: 1px dotted #999999;
+}
+.new_article p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+.new_article p strong{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+.new_article h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    font-family: 宋体;
+    text-indent: 2em;
+    margin-bottom: 17px;
+}
+.new_article img{
+    width: 609px;
+    height: 278px;
+    display: block;
+    margin: 0px auto;
+}
+.new_article .bottom_img{
+    font-size: 12px;
+    font-family: 宋体;
+    color: #333333;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* news_nextandperv */
+.news_nextandperv{
+    overflow: hidden;
+    width: 100%;
+}
+.news_nextandperv a{
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 20px;
+    color: #999999;
+}
+.news_nextandperv .news_prev{
+    float: left;
+}
+.news_nextandperv .news_next{
+     float: right;
+}
+.news_nextandperv a:hover{
+    color: #01a1ff;
+    font-weight: bold;
+}

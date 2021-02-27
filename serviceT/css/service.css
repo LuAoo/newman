@@ -1,0 +1,54 @@
+.service_content {
+    width: 920px;
+    margin: 40px 25px 25px 25px;
+}
+
+.service_content .service_list {
+    list-style-type: disc;
+    width: 100%;
+}
+
+.service_content .service_list li {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.service_content .service_list li:hover span{
+    color: #01a1ff;
+}
+.service_content .service_list li:hover .service_line{
+    border-top: 1px dashed #01a1ff;
+}
+.service_content .service_list li:hover span{
+    color: #01a1ff;
+}
+.service_content .service_list li:hover::before{
+    color: #01a1ff;
+}
+
+.service_content .service_list li::before {
+    content: ".";
+    font-weight: 900;
+    padding-right: 3px;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+.service_text,.service_line,.service_data{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.service_data {
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+}
+
+.service_line {
+    border-top: 1px dashed #666666;
+    position: absolute;
+    top: 14px;
+    width: 100%;
+}
+ 

@@ -1,0 +1,20 @@
+/* 设置header */
+
+
+ .container_content article{
+     padding: 40px 20px 0px 20px;
+     overflow: hidden;
+ }
+ .container_content article img{
+     float: left;
+     margin-right: 32px;
+     margin-bottom: 10px;
+   
+ }
+ .container_content article p{
+     font-size: 14px;
+     line-height: 24px;
+     font-family:宋体;
+     color: #666666;
+     text-indent: 2em ;
+}
